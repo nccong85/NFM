@@ -1,0 +1,122 @@
+/* Generic context menu styles */
+.contextMenu {
+    position: absolute;
+    width: 120px;
+    z-index: 99999;
+    border: solid 1px #a5cbe7;
+    background: #dfeffc;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+
+.contextMenu LI {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.contextMenu A {
+    color: #222222;
+    text-decoration: none;
+    display: block;
+    line-height: 20px;
+    height: 25px;
+    background-position: 6px center;
+    background-repeat: no-repeat;
+    outline: none;
+    padding: 1px 5px;
+    padding-left: 20px;
+}
+
+.contextMenu LI.hover A {
+    color: #ffffff;
+    background-color: #5a9ece;
+}
+
+.contextMenu LI.disabled A {
+    color: #aaaaaa;
+    cursor: default;
+}
+
+.contextMenu LI.hover.disabled A {
+    background-color: transparent;
+}
+
+.contextMenu LI.separator {
+    border-top: solid 1px #a5cbe7;
+}
+
+/*
+    Adding Icons
+
+    You can add icons to the context menu by adding
+    classes to the respective LI element(s)
+*/
+.contextMenu LI.detail A { background-image: url(../../../../images/P/PAA/PAA20/icon/page_white_magnify.png); }
+.contextMenu LI.edit A { background-image: url(../../../../images/P/PAA/PAA20/icon/page_white_edit.png); }
+.contextMenu LI.delete A { background-image: url(../../../../images/P/PAA/PAA20/icon/page_white_delete.png); }
+.contextMenu LI.add A { background-image: url(../../../../images/P/PAA/PAA20/icon/page_white_add.png); }
+.contextMenu LI.move A { background-image: url(../../../../images/P/PAA/PAA20/icon/page_white_go.png); }
+.contextMenu LI.upload A { background-image: url(../../../../images/P/PAA/PAA20/icon/page_white_get.png); }
+.contextMenu LI.download A { background-image: url(../../../../images/P/PAA/PAA20/icon/page_white_put.png); }
+.contextMenu LI.copy A { background-image: url(../../../../images/P/PAA/PAA20/icon/page_white_copy.png); }
+.contextMenu LI.summary A { background-image: url(../../../../images/P/PAA/PAA20/icon/sum.png); }
+.contextMenu LI.stop A { background-image: url(../../../../images/P/PAA/PAA20/icon/delete.png); }
+.contextMenu LI.start A { background-image: url(../../../../images/P/PAA/PAA20/icon/resultset_next.png); }
+.contextMenu LI.rename A { background-image: url(../../../../images/P/PAA/PAA20/icon/textfield_rename.png); }
+.contextMenu LI.mail A { background-image: url(../../../../images/P/PAA/PAA20/icon/email.png); }
+.contextMenu LI.correct-target-list A { background-image: url(../../../../images/P/PAA/PAA20/icon/table.png); }
+.contextMenu LI.approve A { background-image: url(../../../../images/P/PAA/PAA20/icon/tick.png); }
+.contextMenu LI.accept A { background-image: url(../../../../images/P/PAA/PAA20/icon/accept.png); }
+.contextMenu LI.lock A { background-image: url(../../../../images/P/PAA/PAA20/icon/lock.png); }
+.contextMenu LI.unlock A { background-image: url(../../../../images/P/PAA/PAA20/icon/lock_open.png); }
+
+
+/*
+ * Adding Style
+ */
+.contextMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    *border-right-width: 2px;
+    *border-bottom-width: 2px;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+       -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -webkit-background-clip: padding-box;
+       -moz-background-clip: padding;
+            background-clip: padding-box;
+}
+
+.context-menu-item {
+    display: block;
+    padding: 30px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 20px;
+    color: #333333;
+    white-space: nowrap;
+    background-color: #ffffff;
+}
+.context-menu-item.hover {
+    cursor: pointer;
+    background-color: #39F;
+}
+.context-menu-item.hover > .context.menu-list {
+    display: block;
+}

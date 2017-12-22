@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="myDataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="org.postgresql.Driver" />
+		<property name="url" value="jdbc:postgresql://localhost:5432/nfmyusohi" />
+		<property name="username" value="postgres" />
+		<property name="password" value="1234" />
+	</bean>
+	<bean id="mySessionFactory"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="myDataSource" />
+		<property name="annotatedClasses">
+			<list>
+				<value>vn.com.nsmv.entities.Users</value>
+				<value>vn.com.nsmv.entities.SMstUserEntity</value>
+				<value>vn.com.nsmv.entities.STraYusoEntity</value>
+				<value>vn.com.nsmv.entities.SMstYusoBodyEntity</value>
+				<value>vn.com.nsmv.entities.SMstYusoHeadEntity</value>
+				<value>vn.com.nsmv.entities.SMst207Entity</value>
+				<value>vn.com.nsmv.entities.SMst113Entity</value>
+				<value>vn.com.nsmv.entities.SMst208Entity</value>
+				<value>vn.com.nsmv.entities.SMst210KihonEntity</value>
+				<value>vn.com.nsmv.entities.SMst210TankaEntity</value>
+				<value>vn.com.nsmv.entities.SMstN11Entity</value>
+				<value>vn.com.nsmv.entities.STraErrEntity</value>
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</prop>
+				<prop key="hibernate.show_sql">true</prop>
+			</props>
+		</property>
+	</bean>
+</beans>

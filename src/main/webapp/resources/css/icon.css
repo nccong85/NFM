@@ -1,0 +1,229 @@
+﻿@charset "utf-8";
+/*-----------------------------------------------------------------------------
+  icon.css
+ -----------------------------------------------------------------------------*/
+@charset "utf-8";
+/*-----------------------------------------------------------------------------
+  common-icon.css
+ -----------------------------------------------------------------------------*/
+/* Favicon */
+i.ic-favicon{
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/favicon.ico);
+}
+
+/* 追加 */
+i.ic-add {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/add.png);
+}
+
+/* 削除 */
+i.ic-delete {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/delete.png);
+}
+
+/* 承認 */
+i.ic-approve {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/tick.png);
+}
+
+/* 却下 */
+i.ic-reject {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/cross.png);
+}
+
+/* 検索 */
+i.ic-find {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/find.png);
+}
+
+/* アップロード */
+i.ic-upload {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/page_white_get.png);
+}
+
+/* ダウンロード */
+i.ic-download {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/page_white_put.png);
+}
+
+/* レコード追加 */
+i.ic-add-record {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/page_white_add.png);
+}
+
+/* レコード編集 */
+i.ic-edit-record {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/page_white_edit.png);
+}
+
+/* レコード削除 */
+i.ic-delete-record {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/page_white_delete.png);
+}
+
+/* ロック */
+i.ic-lock {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/lock.png);
+}
+
+/* アンロック */
+i.ic-unlock {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/lock_open.png);
+}
+
+/* 先頭へ */
+i.ic-first {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/resultset_first.png);
+}
+
+/* 最後へ */
+i.ic-last {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/resultset_last.png);
+}
+
+/* 前へ */
+i.ic-prev {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/resultset_previous.png);
+}
+
+/* 次へ */
+i.ic-next {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/resultset_next.png);
+}
+
+
+/* クリップ */
+i.ic-clip {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/attach.png);
+}
+
+/* ゴミ箱 */
+i.ic-bin {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/bin.png);
+}
+
+/* 電卓 */
+i.ic-calculator {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/calculator.png);
+}
+
+/* カレンダー */
+i.ic-calendar {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/calendar.png);
+}
+
+/* コメント */
+i.ic-comment {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/comment.png);
+}
+
+/* コメント(複数) */
+i.ic-comments {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/comments.png);
+}
+
+/* メール */
+i.ic-mail {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/email.png);
+}
+
+/* 鍵 */
+i.ic-key {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/key.png);
+}
+
+/* 星 */
+i.ic-star {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/star.png);
+}
+
+/* フォルダ */
+i.ic-folder {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/folder.png);
+}
+
+/* ファイル */
+i.ic-file {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/page_white.png);
+}
+
+/* インフォメーション */
+i.ic-information {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/information.png);
+}
+
+/* エクスクラメーション */
+i.ic-exclamation {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/exclamation.png);
+}
+
+/* ヘルプ */
+i.ic-help {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/help.png);
+}
+
+/* NEW */
+i.ic-new {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/new.png);
+}
+
+
+/* 処理中 */
+i.ic-process {
+    background-image: url(../images/ZP/ZPZZ/ZPZZOL00/icon/process.gif);
+}
+
+/* 検索 */
+i.ic-find {
+    background-image: url(../images/ZP/ZPAA/ZPAAOL00/icon/magnifier.png);
+}
+
+/* 照会 */
+i.ic-refer-record {
+    background-image: url(../images/ZP/ZPAA/ZPAAOL00/icon/page_white_text.png);
+}
+
+/* ソート */
+i.ic-sort {
+    background-image: url(../images/ZP/ZPAA/ZPAAOL00/icon/sort.png);
+}
+
+/* ソート(昇順) */
+i.ic-sort-asc {
+    background-image: url(../images/ZP/ZPAA/ZPAAOL00/icon/sort-asc.png);
+}
+
+/* ソート(降順) */
+i.ic-sort-desc {
+    background-image: url(../images/ZP/ZPAA/ZPAAOL00/icon/sort-desc.png);
+}
+
+/* 登録・更新 */
+i.ic-commit {
+    background-image: url(../images/ZP/ZPAA/ZPAAOL00/icon/database_go.png);
+}
+
+/* 操作 */
+i.ic-operation {
+    background-image: url(../images/ZP/ZPAA/ZPAAOL00/icon/wrench.png);
+}
+
+/* 矢印(下) */
+i.ic-down {
+    background-image: url(../images/ZP/ZPAA/ZPAAOL00/icon/arrow_down.png);
+}
+
+/* 矢印(左) */
+i.ic-left {
+    background-image: url(../images/ZP/ZPAA/ZPAAOL00/icon/arrow_left.png);
+}
+
+/* 矢印(右) */
+i.ic-right {
+    background-image: url(../images/ZP/ZPAA/ZPAAOL00/icon/arrow_right.png);
+}
+
+/* 矢印(上) */
+i.ic-up {
+    background-image: url(../images/ZP/ZPAA/ZPAAOL00/icon/arrow_up.png);
+}

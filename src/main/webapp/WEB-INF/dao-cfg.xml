@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans-4.1.xsd">
+
+	<bean id="userDao" class="vn.com.nsmv.daoImpl.UsersDaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+
+	<bean id="NFMYGX0010_UsersDao" class="vn.com.nsmv.daoImpl.NFMYGX0010_UserDaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+
+	<bean id="yusoTranDao" class="vn.com.nsmv.daoImpl.STraYusoDaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+
+	 <bean id="mst207Dao" class="vn.com.nsmv.daoImpl.SMst207DaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean> 
+
+	<bean id="yusoMstHead" class="vn.com.nsmv.daoImpl.SMstYusoHeadDaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+
+	<bean id="yusoMstBody" class="vn.com.nsmv.daoImpl.SMstYusoBodyDaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+
+	<bean id="mst113Dao" class="vn.com.nsmv.daoImpl.SMst113DaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+
+	<bean id="mst210KihonDao" class="vn.com.nsmv.daoImpl.SMst210KihonDaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+
+	<bean id="mst210TankaDao" class="vn.com.nsmv.daoImpl.SMst210TankaDaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+
+	<bean id="mst208Dao" class="vn.com.nsmv.daoImpl.SMst208DaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+
+	<bean id="mstN11Dao" class="vn.com.nsmv.daoImpl.SMstN11DaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+
+	<bean id="traErrDao" class="vn.com.nsmv.daoImpl.STraErrDaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+
+	<bean id="yusohiSearchDao" class="vn.com.nsmv.daoImpl.NFMYGX0100_YusohiSearchDaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+
+	<bean id="sukkaJissekiDao" class="vn.com.nsmv.daoImpl.SShkaSeiDaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+
+	<bean id="nfmycx0020CommonDao" class="vn.com.nsmv.daoImpl.NFMYCX0020_CommonDaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+	
+	<bean id="yusohiViewDao" class="vn.com.nsmv.daoImpl.NFMYGX0150_YusohiViewDaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+</beans>
