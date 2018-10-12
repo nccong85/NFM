@@ -1,5 +1,6 @@
 package vn.com.nsmv.bean;
 
+// This is test 
 public class NFMYCX0010_210TankaResult {
 	private String tblId = "";
 	private String tankaTani = "";
