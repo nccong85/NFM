@@ -6,6 +6,7 @@ public class NFMYCX0010_210TankaResult {
 	private String tankaTani = "";
 	private double tekiyoRitsu = 0.0;
 
+    // Update 1
 	public String getTblId() {
 		return tblId;
 	}
