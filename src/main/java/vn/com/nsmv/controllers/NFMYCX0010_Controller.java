@@ -9,7 +9,7 @@ import vn.com.nsmv.common.BusinessConst;
 @Controller
 @RequestMapping(BusinessConst.CodeDef.ScreenId.NFMYCX0010)
 public class NFMYCX0010_Controller {
-	// i'm a main view
+	// This is 3rd update
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String init(){
 		return "NFMYCX0010";
