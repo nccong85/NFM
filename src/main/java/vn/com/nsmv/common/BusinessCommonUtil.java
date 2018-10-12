@@ -14,6 +14,7 @@ public class BusinessCommonUtil {
             ? BusinessConst.CodeDef.ShukkoBasho.BASHO_0SH : sukkoBasho;
   }
 
+  // This is Update 2
   public static String createLikeQuery(String itemName) {
     return "%" + itemName + "%";
   }
